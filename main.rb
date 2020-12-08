@@ -2,6 +2,8 @@
 
 class Cube
 
+  attr_reader :width, :height, :depth
+  
   def initialize(width, height, depth)
     @width = width
     @height = height
