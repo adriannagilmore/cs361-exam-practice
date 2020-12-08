@@ -3,7 +3,7 @@
 class Cube
 
   attr_reader :width, :height, :depth
-  
+
   def initialize(width, height, depth)
     @width = width
     @height = height
@@ -12,7 +12,7 @@ class Cube
 
   # Calculate the volume (w x h x d)
   def volume
-        return @width * @height / @depth
+        return width * height * depth
 end
 end
 
