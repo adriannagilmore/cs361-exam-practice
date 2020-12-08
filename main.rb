@@ -2,10 +2,10 @@
 
 class Cube
 
-  def initialize(x, y, b)
-    @width = x
-    @height = y
-    @depth = b
+  def initialize(width, height, depth)
+    @width = width
+    @height = height
+    @depth = depth
   end
 
   # Calculate the volume (w x h x d)
